@@ -413,7 +413,11 @@ class ReactSlider extends React.Component {
     componentDidUpdate() {
         // If an upperBound has not yet been determined (due to the component being hidden
         // during the mount event, or during the last resize), then calculate it now
-        if (this.state.upperBound === 0 || this.state.thumbSize === 0 || this.state.sliderLength) {
+        if (
+            this.state.upperBound === 0 ||
+            this.state.thumbSize === 0 ||
+            this.state.sliderLength === 0
+        ) {
             this.resize();
         }
     }
