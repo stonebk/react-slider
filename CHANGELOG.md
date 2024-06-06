@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.3](https://github.com/zillow/react-slider/compare/v1.3.2...v1.3.3) (2024-06-06)
+
+
+### Bug Fixes
+
+* fix issue with size calculation when slider is hidden ([119e9f4](https://github.com/zillow/react-slider/commit/119e9f48ca4ee0aa13f0fe3990bc73ac92648454))
+
 ### [1.3.2](https://github.com/zillow/react-slider/compare/v1.3.1...v1.3.2) (2023-06-27)
 
 ### [1.3.1](https://github.com/zillow/react-slider/compare/v1.3.0...v1.3.1) (2021-06-14)
