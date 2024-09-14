@@ -542,10 +542,10 @@ class ReactSlider extends React.Component {
             return;
         }
 
-        // Prevent controlled updates from happening while mouse is moving
-        this.setState({ pending: true });
-
         if (!this.props.snapDragDisabled) {
+            // Prevent controlled updates from happening while mouse is moving
+            this.setState({ pending: true });
+
             const position = this.getMousePosition(e);
             this.forceValueFromPosition(position[0], i => {
                 this.start(i, position[0]);
